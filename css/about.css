@@ -1,0 +1,28 @@
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+p {
+    color:crimson
+}
+.about {
+    background:goldenrod;
+    padding: 8px;
+    color:darkred
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+.column{
+    float: left;
+    margin-right: 8px;
+    width: 23%;
+    margin: 10px;
+    background:goldenrod;
+}
+.card{
+    box-shadow: 0px 4px 8px 0 #b3b3b3;
+    padding: 0 16px 0 16px;
+}
