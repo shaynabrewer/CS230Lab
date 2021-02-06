@@ -1,9 +1,11 @@
 <main>
     <link rel="stylesheet" href="css/about.css">
-
     <div class="about">
+    <head>
+        <title>Horror Movie Reviews</title>
+    </head>
         <h1>About Us</h1>
-        <p style= "color: darkred"> Horror Movie Reviews</p>
+        <p style= "color: darkred"> Horror movies reviewed by horror movie villains</p>
     </div>
     <div class="row">
         <div class="column">
@@ -18,7 +20,7 @@
         </div>
         <div class="column">
             <div class="card">
-                <img src="images/5.jpeg">
+                <img src="images/2.jpeg">
                 <div class="container">
                     <h2>Billy</h2>
                     <p>Puppeteer</p>
@@ -28,7 +30,7 @@
         </div>
         <div class="column">
             <div class="card">
-                <img src="images/2.jpeg">
+                <img src="images/3.jpeg">
                 <div class="container">
                     <h2>Dr. Hannibal Lecter</h2>
                     <p>Psychiatrist</p>

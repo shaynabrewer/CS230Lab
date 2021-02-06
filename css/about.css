@@ -4,7 +4,17 @@ main{
     font-size: large;
 }
 p {
-    color:crimson
+    color:crimson;
+    font-size: large;
+
+}
+h1 {
+    color: darkred;
+    font-style: oblique;
+}
+h2 {
+    color: black;
+    font-style:oblique;
 }
 .about {
     background:goldenrod;
