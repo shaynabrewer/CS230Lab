@@ -7,10 +7,6 @@
     background-repeat: no-repeat; 
 }
 
-.container {
-   
-width: 50%;
-}
 
 .center-me {
     display: flex;
@@ -27,4 +23,10 @@ width: 50%;
 
 input {
     margin-bottom: 10px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 200px;
+    margin: auto;
 }
