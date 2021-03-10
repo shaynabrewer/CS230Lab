@@ -17,7 +17,7 @@ if(isset($_POST['login-submit'])){
         header("Location: ../login.php?error=SQLInjection");
         exit();
     } else {
-        mysqli_stmt_bind_param($stmt, "ss", $uname);
+        mysqli_stmt_bind_param($stmt, "ss", $uname, $uname);
         mysqli_stmt_execute($stmt);
         $result = mysqli_stmt_get_result($stmt);
         $data = mysqli_fetch_assoc($result);

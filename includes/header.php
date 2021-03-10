@@ -27,7 +27,8 @@ session_start();
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Fanatic</a>
+    <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+        <a class="navbar-brand" href="index">Fanatic</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,8 +36,8 @@ session_start();
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <?php if(isset($_SESSION['iud'])) {
-                    echo '<li class="navi-item">
+                <?php if(isset($_SESSION['uid'])) {
+                    echo '<li class="nav-item">
                     <a class="nav-link" href="includes/logout.php">Logout</a>
                 </li>
                 <li class="nav-item">
@@ -50,7 +51,7 @@ session_start();
                 echo '<li class="nav-item">
                     <a class="nav-link" href="login.php">Login</a>
                 </li>';
-            }
+                }
                 ?>
                 <li class="nav-item active">
                     <a class="nav-link" href="../index.php">Home<span class="sr-only">(current)</span></a>
