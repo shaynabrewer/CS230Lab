@@ -14,7 +14,7 @@ if(isset($_POST['review-submit'])) {
     $sql = "INSERT INTO reviews (itemid, uname, title, reviewtext, revdate, ratingnum, status) VALUES ('$item_id', '$uname', '$title', '$review', '$date', '$rating', 1);";
     mysqli_query($conn, $sql);
 
-    header("Location: . . /review.php?=$item_id");
+    header("Location: ../review.php?=$item_id");
     exit();
 }
 
